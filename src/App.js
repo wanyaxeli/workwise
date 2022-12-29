@@ -1,23 +1,87 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LeftContent from './components/LeftContent';
+import MainContent from './components/MainContent';
+import RightContent from './components/RightContent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div className='header-wrapper'>
+           <div className='logoWrapper'>
+              <div className='logo'>
+                <img src='/images/logo.png'></img>
+              </div>
+              <input type='search' placeholder='Search...'/>
+              <button><i className="fa fa-search" aria-hidden="true"></i></button>
+           </div>
+            <nav>
+              <ul>
+                <li>
+                  <div>
+                  <i className="fa fa-home" aria-hidden="true"></i>
+                  <h6>Home</h6>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                  <i className="fa fa-table" aria-hidden="true"></i>
+                  <h6>Companies</h6>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                  <i className="fa fa-home" aria-hidden="true"></i>
+                  <h6>Projects</h6>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                  <i className="fa fa-home" aria-hidden="true"></i>
+                  <h6>Profile</h6>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                  <i className="fa fa-briefcase" aria-hidden="true"></i>
+                  <h6>Jobs</h6>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                  <i className="fa fa-envelope" aria-hidden="true"></i>
+                  <h6>Messages</h6>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                  <i className="fa fa-bolt" aria-hidden="true"></i>
+                  <h6>Notifications</h6>
+                  </div>
+                </li>
+              </ul>
+              <div className='userWrapper'>
+                <img src='/images/work1.jpg'></img>
+                <p>John</p>
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
+              </div>
+            </nav>
+        </div>
       </header>
+      <section>
+        <div  className='contentWrapper'>
+          <div className='left-content-wrapper'>
+            <LeftContent/>
+          </div>
+          <div className='mid-content-wrapper'>
+            <MainContent/>
+          </div>
+          <div className='right-content-wrapper'>
+            <RightContent/>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
