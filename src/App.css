@@ -104,6 +104,7 @@ section{
 .me-wrapper{
   max-width: 100%;
   height: auto;
+  text-align: start;
 }
 .me-wrapper span{
   display: block;
@@ -122,11 +123,14 @@ section{
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.me-container img,.me-image-wrapper img,.card-img-wrapper img{
+.me-container img,.sendPostInputWrapper img,.secreply-wrapper img,.me-image-wrapper img,.card-img-wrapper img ,.imgwrapper img{
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
+}
+.imgwrapper img{
+  margin-right: 10px;
 }
 .me-container button{
   border: none;
@@ -639,7 +643,7 @@ section{
 }
 .reply-wrapper{
   background-color: #fff;
-  height: 300px;
+  height: auto;
   border-top: 1px solid #e8e8e8;
 }
 .addIcon-wrapper{
@@ -653,4 +657,65 @@ section{
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.reply-container p{
+  margin-bottom: 10px;
+}
+.reply-container p:first-child,.clock-wrapper{
+  margin-top: 10px;
+}
+.reply-container p:last-child{
+  color: #e44d3a;
+}
+.secreply-wrapper{
+  width: 75%;
+  margin: auto;
+  height: auto;
+  text-align: start;
+  display: flex;
+}
+.secreply-wrapper img{
+  margin-right: 10px;
+}
+.me-wrapper .reply-container .replyicon ,.me-wrapper .reply-container .thirdreplyicon{
+  color: #ddd;
+}
+.sendPostInputWrapper{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sendPostInputWrapper input{
+  width: 350px;
+  height: 30px;
+  padding: 0 10px;
+  background-color: #e8e8e8;
+  outline: none;
+  border: none;
+}
+.sendPostInputWrapper button{
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #e44d3a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.elipsiconwrapper{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(0, 0, 0,.5);
 }

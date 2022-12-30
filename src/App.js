@@ -81,6 +81,7 @@ function App() {
             <RightContent/>
           </div>
         </div>
+        <div className='elipsiconwrapper'><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
       </section>
     </div>
   );

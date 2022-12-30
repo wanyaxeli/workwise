@@ -141,6 +141,44 @@ const MoreProfiles=()=>{
                   <div className="addIcon-wrapper">
                     < i className="fa fa-plus" aria-hidden="true"></i>
                   </div>
+                  <div className="imgwrapper">
+                            <img src="/images/work1.jpg"></img>
+                            <div className="me-wrapper">
+                                <h5>John Doe</h5>
+                                <p className="clock-wrapper"><i className="fa fa-clock-o" aria-hidden="true"></i> 3 min ago</p>
+                                <div className="reply-container">
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p><i className="fa fa-reply-all" aria-hidden="true"></i> Reply</p>
+                                </div>
+                            </div>
+                  </div>
+                  <div className="secreply-wrapper">
+                            <img src="/images/work1.jpg"></img>
+                            <div className="me-wrapper">
+                                <h5>John Doe</h5>
+                                <p className="clock-wrapper"><i className="fa fa-clock-o" aria-hidden="true"></i> 3 min ago</p>
+                                <div className="reply-container">
+                                    <p>Hi John</p>
+                                    <p className="replyicon"><i className="fa fa-reply-all" aria-hidden="true"></i> Reply</p>
+                                </div>
+                            </div>
+                  </div>
+                  <div className="imgwrapper">
+                            <img src="/images/work1.jpg"></img>
+                            <div className="me-wrapper">
+                                <h5>John Doe</h5>
+                                <p className="clock-wrapper"><i className="fa fa-clock-o" aria-hidden="true"></i> 3 min ago</p>
+                                <div className="reply-container">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu</p>
+                                    <p className="thirdreplyicon"><i className="fa fa-reply-all" aria-hidden="true"></i> Reply</p>
+                                </div>
+                            </div>
+                  </div>
+                  <div className="sendPostInputWrapper">
+                    <img src="/images/work1.jpg"></img>
+                    <input placeholder="Post a Comment" type='text'/>
+                    <button>Send</button>
+                  </div>
                </div> 
              </div>
         </div>
