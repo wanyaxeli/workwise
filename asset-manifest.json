@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/workwise/static/css/main.95413062.css",
+    "main.js": "/workwise/static/js/main.aa547a79.js",
+    "static/js/787.d6a70f57.chunk.js": "/workwise/static/js/787.d6a70f57.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/workwise/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/workwise/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/workwise/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/workwise/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/workwise/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/workwise/index.html",
+    "main.95413062.css.map": "/workwise/static/css/main.95413062.css.map",
+    "main.aa547a79.js.map": "/workwise/static/js/main.aa547a79.js.map",
+    "787.d6a70f57.chunk.js.map": "/workwise/static/js/787.d6a70f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95413062.css",
+    "static/js/main.aa547a79.js"
+  ]
+}
